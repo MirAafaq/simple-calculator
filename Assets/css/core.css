@@ -1,1 +1,71 @@
+/* code by Aafaq Ahmad Mir */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width/height */
+    font-family: Arial, sans-serif;
+}
+
+.cal-main {
+    padding: 10px;
+    background: #222;
+    color: #fff;
+    text-align: center;
+}
+
+.view-and-result {
+    display: flex;
+    background: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.view, .result {
+    flex: 1;
+    width: 200px;
+    text-align: center;
+}
+
+.cal-buttons {
+    margin: 10px;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn > div {
+    background: #f5f5f5;
+    color: #333;
+    font-size: 18px;
+    margin: 5px;
+    padding: 15px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn > div:hover {
+    background: #333;
+    color: #f5f5f5;
+}
+
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9, .btn0, .btn-plus, .btn-minus, .btn-reset,  .btn-multiply, .btn-div,  .btn-equals, .btn-mod, .btn-raised{
+
+	background: white;
+	color: #000;
+	font-size: 20px;
+	margin: 10px;
+	padding: 10px;
+}
+#console-log{
+
+	padding: 20px;
+}
 
