@@ -1,2 +1,3 @@
 # simple-calculator
-informal approach
+Simple javascript Calculator 
+informal approach taken for newbie's
